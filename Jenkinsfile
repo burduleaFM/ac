@@ -10,7 +10,7 @@ pipeline {
 
     stage('image_push') {
       steps {
-        sh 'docker-compose push '
+        sh 'docker-compose push --pull'
       }
     }
 
