@@ -1,5 +1,5 @@
 FROM python:3
-MAINTAINER Ameya Lokare <lokare.ameya@gmail.com>
+MAINTAINER alexandru toloaca <alexandru.toloaca@gmail.com>
 
 ENV PYTHONUNBUFFERED 1
 RUN mkdir -p /opt/services/flaskapp/src
