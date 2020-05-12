@@ -22,7 +22,7 @@ services:
   nginx:
     image: "nginx:1.13.5"
     ports:
-      - "55999:80"
+      - "60000:80"
     volumes:
       - ./conf.d:/etc/nginx/conf.d
     networks:
