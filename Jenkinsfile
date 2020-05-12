@@ -10,7 +10,7 @@ pipeline {
 
     stage('image_push') {
       steps {
-        sh 'docker-compose push alex199/test_flask_app'
+        sh 'docker-compose push '
       }
     }
 
