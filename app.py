@@ -8,7 +8,7 @@ from models import Signups
 from database import db_session
 
 app = Flask(__name__)
-app.secret_key = os.environ['APP_SECRET_KEY']
+
 
 @app.route("/", methods=('GET', 'POST'))
 def signup():
